@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#0B0B0A"
+    android:layout_height="match_parent"
+    tools:context=".FAQ">
+
+    <TextView
+        android:id="@+id/Txt"
+        android:layout_width="327dp"
+        android:layout_height="40dp"
+        android:text="What is AddressBook?"
+        android:textColor="#b3b3b3"
+        android:textColorHint="#e6e6e6"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.261"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.232" />
+
+    <TextView
+
+        android:id="@+id/abc"
+        android:layout_width="366dp"
+        android:layout_height="236dp"
+        android:text="AddressBook  use for store and view information .You can also delete and update address.here you can add your favourite address person.In now days AddressBook is very useful application"
+        android:textColor="#b3b3b3"
+        android:textColorHint="#e6e6e6"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.511"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.872" />
+
+    <TextView
+        android:id="@+id/Txt1"
+        android:layout_width="365dp"
+        android:layout_height="70dp"
+        android:text="What are the benefits using AddressBook?"
+        android:textColor="#b3b3b3"
+        android:textColorHint="#e6e6e6"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.462" />
+
+    <TextView
+
+        android:id="@+id/abc1"
+        android:layout_width="365dp"
+        android:layout_height="64dp"
+        android:text="It is an instant store address application."
+        android:textColor="#b3b3b3"
+        android:textColorHint="#e6e6e6"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.316" />
+
+    <TextView
+
+        android:id="@+id/abc11"
+        android:layout_width="317dp"
+        android:layout_height="76dp"
+        android:text="Address Book"
+        android:textColor="#b3b3b3"
+        android:textColorHint="#e6e6e6"
+        app:autoSizeTextType="uniform"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.372"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.061" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

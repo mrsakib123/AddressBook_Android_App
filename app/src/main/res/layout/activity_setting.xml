@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#0B0B0A"
+    android:padding="10dp"
+    tools:context=".Setting">
+
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#b3b3b3"
+        android:backgroundTint="@color/teal_700"
+        android:hint="Enter Id" />
+
+    <Button
+        android:id="@+id/deleteButtonId"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="389dp"
+        android:layout_height="73dp"
+        android:text="Delete" />
+
+    <EditText
+        android:id="@+id/nameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#b3b3b3"
+        android:backgroundTint="@color/teal_700"
+        android:hint="Enter Name" />
+
+    <EditText
+        android:id="@+id/mailEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#b3b3b3"
+        android:backgroundTint="@color/teal_700"
+        android:hint="Enter Mail" />
+
+    <EditText
+        android:id="@+id/ageEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#b3b3b3"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Age" />
+
+    <EditText
+        android:id="@+id/mobileEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#b3b3b3"
+        android:backgroundTint="@color/teal_700"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Mobile Number" />
+
+    <EditText
+        android:id="@+id/addressEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#b3b3b3"
+        android:textColor="#b3b3b3"
+        android:backgroundTint="@color/teal_700"
+        android:hint="Enter Current Address" />
+
+
+    <Button
+        android:id="@+id/updateButtonId"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:text="Update" />
+
+
+</LinearLayout>
+

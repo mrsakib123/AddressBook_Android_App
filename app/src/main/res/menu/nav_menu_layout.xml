@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/homeMenuId"
+            android:title="Home"
+            android:icon="@drawable/ic_baseline_home_24"
+            />
+
+        <item
+            android:id="@+id/favoriteMenuId"
+            android:title="Add "
+            android:icon="@drawable/ic_baseline_favorite_24"
+
+            />
+        <item
+            android:id="@+id/settingMenuId"
+            android:title="Delete  Update"
+            android:icon="@drawable/ic_baseline_settings_input_component_24"
+
+            />
+
+        <item
+            android:id="@+id/monetizationMenuId"
+            android:title="Monetization"
+            android:icon="@drawable/ic_baseline_share_24"
+
+            />
+
+
+    </group>
+
+    <item android:title="Support">
+
+        <menu>
+
+            <item
+            android:id="@+id/aboutMenuId"
+            android:title="About"
+            android:icon="@drawable/ic_baseline_chat_24"
+
+            />
+
+            <item
+            android:id="@+id/FaqMenuId"
+            android:title="FAQ"
+            android:icon="@drawable/ic_baseline_contact_phone_24"
+
+            />
+
+            <item
+                android:id="@+id/resetMenuId"
+                android:title="Setting"
+                android:icon="@drawable/ic_baseline_settings_input_component_24"
+
+                />
+
+
+        </menu>
+
+    </item>
+
+
+</menu>

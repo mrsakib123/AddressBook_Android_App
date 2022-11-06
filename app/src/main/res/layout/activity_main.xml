@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:id="@+id/drawerId"
+tools:openDrawer="start"
+tools:context=".MainActivity">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#0B0B0A"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <ListView
+            android:dividerHeight="1dp"
+            android:divider="#9EE827"
+            android:listSelector="#24C81E"
+            android:id="@+id/listViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+
+
+
+
+    </LinearLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/navigationId"
+    android:background="@android:color/white"
+    app:menu="@menu/nav_menu_layout"
+    android:layout_gravity="start"
+    app:headerLayout="@layout/nav_header">
+</com.google.android.material.navigation.NavigationView>
+
+
+
+</androidx.drawerlayout.widget.DrawerLayout>
+
+
+
+
+
+
